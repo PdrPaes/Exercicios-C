@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int largura;
+    int comprimento;
+    int altura;
+    int volume;
+    
+    printf("Informe a largura do objeto: ");
+    scanf("%d",&largura);
+    
+    printf("Informe o comprimento do objeto: ");
+    scanf("%d",&comprimento);
+    
+    printf("Informe a altura do objeto: ");
+    scanf("%d",&altura);
+    
+    volume = largura * comprimento * altura;
+    
+    printf("o valor do volume é %d",volume);
+    return 0;
+}
